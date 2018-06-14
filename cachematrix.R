@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This function takes an invertible matrix as an argument and
+## solves the matrix for its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
@@ -17,6 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## This function returns a cached matrix. 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
